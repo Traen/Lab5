@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+ console.log  ("Привет/n МИР")
+var word="програмирование"
+console.log("Длина слова" + word + " Равна" + word.length)
+var a= "Смаилов", b="Шевкет", c="Шаипович"
+console.log("Длина именни равна" + a.length)
+console.log("Длина фамилии равна" + b.lengt)
+console.log("Длина отчества равна" + c.length)
+var A=a.length+b.length+c.length
+console.log("Длина ФИО равна" + A)
+
+var word="Shevket"
+console.log("1 Shevket "+ word.charAt(0))
+console.log("2 Shevket "  + word[1])
+console.log("7 Shevkets " + word.charAt(word.length-1))
+
+var A="Шла Cаша по шоссе"
+console.log(A[0]+A[1])
+console.log(A[A.length-2]+A[A.length-1])
+var word="Программирование"
+console.log(word.toUpperCase())
+var word="ПРОГРАМИРОВАНИЕ"
+console.log(word[0].toLowerCase())
+
+
+var B="Вася, учи программирование!"
+var newB= B[0].toUpperCase()+B.slice(1,B.length)
+console.log (newB)
+var A="Шла саша по шоссе "
+var C=A.slice(0, 4)+A[4].toUpperCase() + A.slice (5, A.length)
+console.log(C)
+
+var number=(1,2,3,4,6)
+console.log(number[1],number[number.length-2],number.lenth);
+var letters=["sheva","smailov","TraenGO","Shevket","Johny"]
+letters[0]=letters[2]
+letters[2]="TraenGO"
+console.log(letters);
+Var B=Math.random()*(1000-1)-1
+Var A=[Math.(B),Math.round(B),Math.round(B)]
+Console.log(A);
+console.log('Упражнение 5');
+var colors = ["white","orange","bloo"]
+console.log(colors.join(" или "))
+console.log(colors.join(": "))
+console.log(colors.join(", "))
+console.log("");
+console.log('Упражнение 6');
+var colors = ["white","green","yellow"]
+var numbers = [1, 2, 3]
+var colorNumber = colors.concat(numbers)
+console.log(colorNumber);
+colors.length = 0
+console.log(colors);
+console.log("");
+console.log('Упражнение 7');
+var arr = [1,2,3,4,5,6]
+console.log(arr.slice(1));
+console.log(arr.slice(1,4));
+console.log(arr.slice(3,4));
+console.log(arr.slice(-2));
+console.log(arr.slice(arr.length-2));
+console.log(arr.slice(-3,-1));
+console.log(arr.slice(arr.length-3,arr.length-1));
+console.log("");
+console.log('Упражнение 8');
+var colors = ["white","yellow","blue"]
+console.log(colors.reverse());
+console.log(colors.sort());
+console.log("");
+console.log('Упражнение 9');
+var arr1 = [1,2,3,4,5,6]
+arr1.splice(3,2)
+console.log(arr1);
+var arr2 = [1,2,3,4,5,6]
+arr2.splice(-5,2)
+console.log(arr2);
+var arr3 = [1,2,3,4,5,6]
+arr3.splice(2,0,7)
+console.log(arr3);
+console.log('');
+  </script>
+</body>
+</html>
