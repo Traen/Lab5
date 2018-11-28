@@ -8,18 +8,58 @@
 </head>
 <body>
   <script>
-    var v =prompt ("В каком году ты поступил?")
+  /*  var v =prompt ("В каком году ты поступил?")
     var q =prompt ("Как тебя зовут?")
 if (!(q == "Шевкет"  || v==2018))
   alert ("верно!")
   else
   alert ("Не верно!")
-   console.log("Упражнение 8")
+   console.log("Упражнение")
    var value =prompt("Введите число")
    if(value == 1000)
    alert ("Красавчик, верно")
 else
 alert ("Не верно")
+ console.log("Упражнение 8")
+ var a = 11 + 5;
+ switch (a) {
+ case 9:
+ alert ("Это меньше а");
+ break;
+ case 10:
+ alert ("Это a");
+ break;
+ case 11:
+ alert ("Это больше a");
+ break;
+ default:
+ alert ("Это не a");
+ }
+*/
+console.log("Упражнение 9")
+var lang =prompt("Выберите язык(ru/en):")
+   var week
+   if (lang=="ru"){
+     week =["Понедельник", " Вторник", " Среда", " Четверг", " Пятница", " Суббота", " Воскресение"]
+       alert(week)
+   }
+   else if (lang=="en"){
+     week =["Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+       alert(week)
+   }
+   else
+     alert("Ошибка при выборе языка")
+   var lang1 =prompt("Выберите язык(ru/en):")
+   var week1
+   switch (lang1) {
+     case "ru":
+       week1 =["Понедельник", " Вторник", " Среда", " Четверг", " Пятница", " Суббота", " Воскресение"]
+       alert(week1)
+         break;
+     case "en":
+       week1 =["Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+       alert(week1)
+   }
 
     </script>
 </body>
